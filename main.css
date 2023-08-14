@@ -1,0 +1,19 @@
+.item-description {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+/* the plus sign is calling both the input siblings */
+.item-completed:checked + .item-description {  
+   background: lightskyblue;
+   text-decoration: line-through;   /* when the box is checked a line will go through it*/
+}
+
+#add {
+    padding: 8px 14px;
+    font-weight: bold;
+    color: white;
+    background: green;
+    cursor: pointer;
+}

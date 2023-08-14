@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <!-- this is the link coming from CSS -->
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div id="items">
+      <div class="item"></div>
+      <template id="itemsTemplate">
+        <input type="checkbox" class="item-completed" />
+        <input
+          type="text"
+          class="item-description"
+          placeholder="To-Do items....."
+        />
+      </template>
+    </div>
+    <button id="add">Add To-Do</button>
+
+    <p>Notes:</p>
+    <p>
+      - Check local storage to see if the input boxes and the input is being
+      populated.
+    </p>
+    <p>- Developer tools > Application > Local storage</p>
+    <p>- Check OneNote for a visual</p>
+  </body>
+</html>
